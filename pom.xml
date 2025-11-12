@@ -77,7 +77,6 @@
 			<groupId>jakarta.servlet</groupId>
 			<artifactId>jakarta.servlet-api</artifactId>
 			<version>${maven.dependency.jakarta.servlet-api.version}</version>
-			<scope>provided</scope>
 		</dependency>
 
 		<!-- Dependency for Spring Data JPA and PostgreSQL -->
