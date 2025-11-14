@@ -1,4 +1,3 @@
-
 ## Global Variables
 @BaseUrl = http://localhost:8080/api
 
@@ -9,7 +8,7 @@ POST {{BaseUrl}}/todos
 Content-Type: application/json
 
 {
-    "title": "Belajar PBO",
+    "title": "Belajar PBO bersama Anggi",
     "description": "Mempelajari dasar-dasar PBO untuk pengembangan aplikasi web."
 }
 ###
@@ -19,7 +18,7 @@ GET {{BaseUrl}}/todos
 ###
 
 # @name GetAllTodosWithSearch
-GET {{BaseUrl}}/todos?search=PBO
+GET {{BaseUrl}}/todos?search=PBO Praktikum9
 ###
 
 ## Mengambil ID Todo pertama dari response GetAllTodos
@@ -35,7 +34,7 @@ Content-Type: application/json
 
 {
     "title": "Belajar Spring Boot Lanjutan",
-    "description": "Mempelajari fitur-fitur lanjutan Spring Boot.",
+    "description": "Mempelajari fitur-fitur lanjutan Spring Boot, Security,dan Rest API.",
     "isFinished": true
 }
 ###
